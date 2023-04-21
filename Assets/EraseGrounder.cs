@@ -51,7 +51,7 @@ public class EraseGrounder : MonoBehaviour
                 newObject.transform.SetParent(transform);
 
                 Vector3 direction = (currentMousePosition - spawnPosition).normalized;
-                newObject.transform.position += direction * distance;
+                newObject.transform.position += direction * distance;g
 
             }
         }
